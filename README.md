@@ -1,5 +1,5 @@
 # ui-sample
-his project requires node.js, which can be downloaded here if you don't have it previously installed:
+This project requires node.js, which can be downloaded here if you don't have it previously installed:
 https://nodejs.org/
 To run, download or clone this directory.
 Navigate to it in the terminal and type npm start.
