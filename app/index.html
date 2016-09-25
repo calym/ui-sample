@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" ng-controller="MainCtrl">
+	<head>
+		<title>UI Sample</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="app.css">
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	</head>
+
+	<body>
+		<header>
+			<span ng-click="navToggle()"><img src="hamburger.png"></span> Buymart
+		</header>
+		
+		<nav ng-show="showNav">
+			<ul>
+				<li class="nav-item" ng-class="{'nav-item-selected': homeSelect}" ng-click="testNav('/home', true)">Home</li>
+				<li class="nav-item" ng-class="{'nav-item-selected': marketSelect}" ng-click="testNav('/market', true)">Market</li>
+				<li class="nav-item" ng-class="{'nav-item-selected': helpSelect}" ng-click="testNav('/help', true)">Help</li>
+			</ul>
+		</nav>
+		<div ng-view></div>
+
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-route/angular-route.js"></script>
+		<script src="app.js"></script>
+		<script src="productService.js"></script>
+
+	</body>
+</html>

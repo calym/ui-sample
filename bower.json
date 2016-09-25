@@ -1,0 +1,10 @@
+{
+  "name": "ui-sample",
+  "description": "A sample app",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-route": "~1.5.0",
+    "bootstrap": "~4.0.0"
+  }
+}

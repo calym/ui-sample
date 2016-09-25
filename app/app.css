@@ -1,0 +1,88 @@
+body {
+  background-color: lightgray!important;
+}
+
+header {
+  background-color: #0066cc;
+  padding: 15px;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+img {
+  padding-bottom: 5px;
+  padding-right: 20px;
+}
+
+button {
+  background-color: green;
+}
+
+nav {
+  max-width: 150px;
+  float: left;
+  border-right: 1px solid black;
+  height: 100vh;
+  background-color: gray;
+}
+
+form {
+  padding: 30px;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.nav-item {
+  padding: 20px;
+  font-weight: bold;
+}
+
+.nav-item-selected {
+  background-color: lightblue;
+}
+
+.item {
+	border: 1px solid black;
+	text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.address {
+  text-align: left;
+}
+
+.guarantee {
+  text-align: center;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#city_id {
+  width: 80%;
+  display: inline;
+}
+
+#state_id {
+  width: 19%;
+  display: inline;
+}
+
+.confirm {
+  width: 50%;
+  margin-left: 50%;
+}
